@@ -51,7 +51,7 @@ Change ```spring.datasource.username``` and ```spring.datasource.password``` pro
 
 ## BUILD & RUN THE PROJECT
 To launch the application, chose one from the folloging options:
-- right-click the public static void main in ```OrderProductApplication``` and select ```Run``` from your IDE;
+- click the public static void main in ```OrderProductApplication``` and select ```Run``` from your IDE;
 
 - if you use Maven, you can run the application by using:
 ```
