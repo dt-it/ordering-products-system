@@ -50,14 +50,15 @@ Open ```src/main/resources/application.properties``` file <br>
 Change ```spring.datasource.username``` and ```spring.datasource.password``` properties to match your MySQL connection <br>
 
 ## BUILD & RUN THE PROJECT
-To launch the application, either right-click the public static void main in ```OrderProductApplication``` and select ```Run``` from your IDE, or: <br>
+To launch the application, chose one from the folloging options:
+- right-click the public static void main in ```OrderProductApplication``` and select ```Run``` from your IDE;
 
 - if you use Maven, you can run the application by using:
 ```
 ./mvnw clean spring-boot:run
 ```
 
-- alternatively, you can build the JAR file with ````./mvnw clean package```` and then run the JAR file, as follows:
+- you can build the JAR file with ````./mvnw clean package```` and then run the JAR file, as follows:
 ```
 java -jar target/order-product-0.0.1-SNAPSHOT.jar
 ```
