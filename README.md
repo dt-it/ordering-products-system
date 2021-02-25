@@ -24,7 +24,7 @@ They are interfaces that are responsible for data persistence. The repository la
 
 ### Service
 Service is organized in the service package. 
-Service layer depends on the repository layer and provides separation of concern, encapsulating all the business logic implementation. It is there to apply business rules on data sent to and from the repository layer. Service layer does not care about the specific database implementation and provides loose coupling. This technique makes the application flexible in a possible data source replacement.
+Service layer depends on the repository layer and provides separation of concern, encapsulating all the business logic implementation. It is there to apply business rules on data sent to and from the repository layer. Service layer does not care about the specific database implementation. This technique makes the application flexible in a possible data source replacement.
 
 ### Controller
 Controllers are organized in the controller package.
