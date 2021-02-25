@@ -70,7 +70,7 @@ The following REST endpoints are available upon deployment:
 | HTTP Verb        | URL           | Description  | Status Codes |
 | ------------- |-------------|:-----| ----|
 | `GET` | `http://localhost:8080/products?orderBy={id/name/price; default=name}` | Obtains a list of all existing products | <ul><li>`200 OK`</li></ul> |
-| `GET` | `http://localhost:8080/products/{productId}` | Obtains the single product corresponding to the provided product id | <ul><li>`200 OK` if product exists</li><li>`404 Not Found` if product does not exist</li></ul> |
+| `GET` | `http://localhost:8080/products/{productId}` | Obtains the single product corresponding to the provided productId | <ul><li>`200 OK` if product exists</li><li>`404 Not Found` if product does not exist</li></ul> |
 | `GET` | `http://localhost:8080/orders` | Obtains a list of all existing orders | <ul><li>`200 OK`</li></ul> |
 | `GET` | `http://localhost:8080/orders/{from}/{to}` | Obtains finalized orders corresponding to the provided dates of order (date format: yyyy-mm-dd) | <ul><li>`200 OK`</li></ul> |
 | `POST` | `http://localhost:8080/products` | Creates a new product based on the data contained in the request body - JSON { "name": "provided_name", "price": provided_price }| <ul><li>`201 Created` if product successfully created</li></ul> |
