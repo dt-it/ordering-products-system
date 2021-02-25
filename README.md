@@ -66,7 +66,7 @@ The server will start running at http://localhost:8080.
 
 ## AFTER RUNNING
 For your convinient, I suggest using Postman app to check provided endpoints.
-The following REST endpoints are available upon deployment of the order management system:
+The following REST endpoints are available upon deployment:
 | HTTP Verb        | URL           | Description  | Status Codes |
 | ------------- |-------------|:-----| ----|
 | `GET` | `http://localhost:8080/products?orderBy={id/name/price; default=name}` | Obtains a list of all existing products | <ul><li>`200 OK`</li></ul> |
