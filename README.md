@@ -52,12 +52,12 @@ Change ```spring.datasource.username``` and ```spring.datasource.password``` pro
 ## BUILD & RUN THE PROJECT
 To launch the application, either right-click the public static void main in ```OrderProductApplication``` and select ```Run``` from your IDE, or: <br>
 
-If you use Maven, you can run the application by using:
+- if you use Maven, you can run the application by using:
 ```
 ./mvnw clean spring-boot:run
 ```
 
-Alternatively, you can build the JAR file with ````./mvnw clean package```` and then run the JAR file, as follows:
+- alternatively, you can build the JAR file with ````./mvnw clean package```` and then run the JAR file, as follows:
 ```
 java -jar target/order-product-0.0.1-SNAPSHOT.jar
 ```
