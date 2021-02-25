@@ -19,7 +19,7 @@ Model consists of entity classes. Entities use various annotations that describe
 
 ### Repository
 Repositories are organized in the repository package. 
-They are interfaces that are responsible for data persistence. The repository layer is an abstraction that provides all CRUD functionality and keeps hidden the data related information (e.g. specific database implmentation) from the other layers. This layer should always persist entities.
+They are interfaces that are responsible for data persistence. The repository layer is an abstraction that provides all CRUD functionality and keeps hidden the data related information (e.g. specific database implmentation) from the other layers.
 
 
 ### Service
