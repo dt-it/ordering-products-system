@@ -65,7 +65,7 @@ java -jar target/order-product-0.0.1-SNAPSHOT.jar
 The server will start running at http://localhost:8080.
 
 ## AFTER RUNNING
-For your convinient, I suggest using Postman app to check provided endpoints.
+For your convenience, I suggest using Postman app to check provided endpoints.
 The following REST endpoints are available upon deployment:
 | HTTP Verb        | URL           | Description  | Status Codes |
 | ------------- |-------------|:-----| ----|
